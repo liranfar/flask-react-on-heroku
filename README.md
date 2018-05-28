@@ -15,6 +15,11 @@
 `npm start`
 To build client app: `npm run build`
 
+* Deployment on heroku
+`heroku login` ...
+`heroku create <your-app-name>`
+`heroku git:remote <your-app-name>`
+`git push heroku master`
 
 ## Resources
 [static files in flask](https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask)
