@@ -37,6 +37,10 @@ $ heroku create <your-app-name>
 $ heroku git:remote <your-app-name>
 $ git push heroku master
 ```
+
+## TODO
+1. Enable cross origin support on flask server for **devlopment** only using [flask-CORS][1].
+[1]: https://flask-cors.readthedocs.io/en/latest/
 ## Resources
 
 1. [static files in flask](https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask)
