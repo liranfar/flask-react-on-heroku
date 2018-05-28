@@ -3,12 +3,12 @@
 
 # Usage
 
-* Local Development
-
+### Local Development
 `git clone...`
+
 `cd <>`
 
-* Server
+### Server
 
 `virtualenv -p python3 venv`
 
@@ -16,8 +16,7 @@
 
 `gunicorn app:app`
 
-* Client
-
+### Client
 `cd client-dev`
 
 `npm install`
@@ -26,7 +25,7 @@
 
 To build client app: `npm run build`
 
-* Deployment on heroku
+### Deployment on heroku
 
 `heroku login` ...
 
