@@ -20,7 +20,8 @@ $ gunicorn app:app
 ```
 $ cd client
 $ npm install
-$ npm start
+$ chmod +x run_dev.sh
+$ ./run_dev.sh
 ```
 To build client app: `npm run build`
 
@@ -31,6 +32,7 @@ $ python3 -m http.server
 ```
 
 ### Deployment on heroku
+Disable flask-CORS
 ```
 $ heroku login ...
 $ heroku create <your-app-name>
@@ -38,9 +40,6 @@ $ heroku git:remote <your-app-name>
 $ git push heroku master
 ```
 
-## TODO
-1. Enable cross origin support on flask server for **devlopment** only using [flask-CORS][1].
-[1]: https://flask-cors.readthedocs.io/en/latest/
 ## Resources
 
 1. [static files in flask](https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask)

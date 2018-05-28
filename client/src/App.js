@@ -13,7 +13,7 @@ class App extends Component {
 
   handleClick = (logMessage) => {
     console.log(logMessage);
-    axios.get(process.env.PUBLIC_URL + '/users/ping', {
+    axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/users/ping`, {
                     // params :{
                     //     dataType: 'json'
                     // }
