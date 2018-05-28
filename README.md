@@ -17,13 +17,19 @@
 `gunicorn app:app`
 
 ### Client
-`cd client-dev`
+`cd client`
 
 `npm install`
 
 `npm start`
 
 To build client app: `npm run build`
+
+To check the build directory on a static server :
+
+`cd build`
+
+`python3 -m http.server`
 
 ### Deployment on heroku
 
