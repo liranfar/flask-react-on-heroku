@@ -32,10 +32,10 @@ $ python3 -m http.server
 
 ### Deployment on heroku
 ```
-heroku login ...
-heroku create <your-app-name>
-heroku git:remote <your-app-name>
-git push heroku master
+$ heroku login ...
+$ heroku create <your-app-name>
+$ heroku git:remote <your-app-name>
+$ git push heroku master
 ```
 ## Resources
 
