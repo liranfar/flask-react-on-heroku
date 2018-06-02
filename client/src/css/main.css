@@ -1,0 +1,33 @@
+div.line {
+    position: absolute;
+    z-index: 4;
+    top: -26px;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    background-color: #a4c956;
+}
+
+div.line:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #b9d57d;
+}
+
+div.line:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #b9d57d;
+}
+
+div.line-bottom {
+    top: 96%;
+}

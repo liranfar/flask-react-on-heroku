@@ -45,3 +45,9 @@ $ git push heroku master
 1. [static files in flask](https://stackoverflow.com/questions/20646822/how-to-serve-static-files-in-flask)
 
 1. [python3 virtualenv](https://stackoverflow.com/questions/23842713/using-python-3-in-virtualenv)
+
+1. [react-bootstrap](https://react-bootstrap.github.io/)
+
+1. [react-scrollable-anchor](https://react-bootstrap.github.io/)
+
+1. [google-maps-react](https://github.com/fullstackreact/google-maps-react)

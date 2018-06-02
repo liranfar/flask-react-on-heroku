@@ -1,0 +1,12 @@
+#navigation-bar {
+    font-family: 'EB Garamond',serif;
+    margin-bottom: 0;
+    border-radius: 0px;
+    background-color: white;
+    border-color: green;
+
+}
+
+#navigation-bar li a:hover, #navigation-bar li a:visited  {
+    color:black;
+}

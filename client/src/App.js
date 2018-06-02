@@ -1,30 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import axios from 'axios'
+import handleClick from './utils/restClient';
 
 class App extends Component {
   constructor(){
     super();
 
     this.state = {};
-    this.handleClick = this.handleClick.bind(this);
+    this.handleClick = handleClick.bind(this);
   }
 
-  handleClick = (logMessage) => {
-    console.log(logMessage);
-    axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/users/ping`, {
-                    // params :{
-                    //     dataType: 'json'
-                    // }
-                })
-                    .then(function (response) {
-                        console.log('SUCCESS', response)
-                    })
-                    .catch(function (error) {
-                        console.log('ERROR', error)
-                    });
-  }
   render() {
     return (
       <div className="App">

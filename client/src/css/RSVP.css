@@ -1,0 +1,74 @@
+section#rsvp input[type=text].form-control, section#rsvp select.form-control,
+section#rsvp input[type=email].form-control,
+section#rsvp textarea.form-control {
+    border-color: #ced4da!important;
+    border-radius: 2px;
+    color: #495057;
+    font-family: Montserrat,sans-serif;
+    /* font-size: .6875rem!important;
+    font-weight: 600;
+    letter-spacing: .0625rem!important;
+    padding: .875rem 1rem; */
+}
+
+section#rsvp h3 {
+    position: relative;
+    font-family: 'EB Garamond',serif;
+    font-size: 48px;
+    line-height: 20px;
+    font-weight: 400;
+    color: grey;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-shadow: 2px 1px 0 rgba(0,0,0,0.25);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+section#rsvp button {
+    margin-top: 3.5rem;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -ms-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    color: #999;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+section#rsvp button:hover {
+    background-color: #aacd62;
+    background-image: none;
+    -webkit-background-size: initial;
+    -moz-background-size: initial;
+    -ms-background-size: initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    border: 1px solid #8cb339;
+    color: #fff;
+    text-shadow: 0 -1px 0 #999;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
