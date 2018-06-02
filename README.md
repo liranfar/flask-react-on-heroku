@@ -1,5 +1,5 @@
 # flask and react deployed on heroku
-a very simple flask app integrated with React on REST, deployed on heroku.
+a onepage react app served by flask & sqlite/postgres db, deployed easily on heroku.
 
 # Usage
 
@@ -23,7 +23,7 @@ $ npm install
 $ chmod +x run_dev.sh
 $ ./run_dev.sh
 ```
-To build client app: `npm run build`
+To build client app comment out `process.env.REACT_APP_USERS_SERVICE_URL` and run : `npm run build`
 
 To check the build directory on a static server :
 ```
@@ -36,8 +36,19 @@ Disable flask-CORS
 ```
 $ heroku login ...
 $ heroku create <your-app-name>
+$ heroku addons:add heroku-postgresql:hobby-dev
+$ heroku run python
+>>> import os
+>>> os.environ.get('DATABASE_URL')
+```
+copy db_url to your app_config, and then:
+```
 $ heroku git:remote <your-app-name>
 $ git push heroku master
+$ heroku run python
+>>> from app import db
+>>> db.create_all()
+>>> exit()
 ```
 
 ## Resources
@@ -48,6 +59,10 @@ $ git push heroku master
 
 1. [react-bootstrap](https://react-bootstrap.github.io/)
 
-1. [react-scrollable-anchor](https://react-bootstrap.github.io/)
+1. [react-scrollable-anchor](https://github.com/gabergg/react-scrollable-anchor)
 
 1. [google-maps-react](https://github.com/fullstackreact/google-maps-react)
+
+1. [Sahil Diwan - flask and postgres on heroku](http://blog.sahildiwan.com/posts/flask-and-postgresql-app-deployed-on-heroku/)
+
+1. [Setting up flask app in heroku with a database](https://gist.github.com/mayukh18/2223bc8fc152631205abd7cbf1efdd41/)
