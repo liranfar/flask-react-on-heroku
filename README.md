@@ -1,6 +1,8 @@
 # flask and react deployed on heroku
 a onepage react app served by flask & sqlite/postgres db, deployed easily on heroku.
 
+[Production ready example](https://gili-matan.herokuapp.com/)
+
 # Usage
 
 ### Local Development
