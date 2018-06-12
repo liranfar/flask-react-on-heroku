@@ -52,7 +52,8 @@ export default class Page extends Component {
   }
 
   getGreetings = () => {    
-    axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/greetings`)    
+    // axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/greetings`)
+    axios.get(`greetings`)     
     .then((res) => {              
      this.setState({greetings: res.data.data.greetings});
     })
