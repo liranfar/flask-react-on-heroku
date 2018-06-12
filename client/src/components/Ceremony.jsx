@@ -12,9 +12,8 @@ export default props => {
                 <div className="col-md-12">
                     <h1>The Ceremony</h1>
                     <h3><span>Will Be Held On</span></h3>
-                    <h2>26, 2013</h2>
-                    <h5><span>~ December ~</span></h5>
-                    <h4>Mi'rojul Muttaqinallah Mosque, Yogyakarta 09.00 WIB</h4>
+                    <h2>July 6, 2018</h2>                    
+                    <h4>11:00 - Reception | 12:00 - Ceremony</h4>
                 </div>
             </div>
         </div>

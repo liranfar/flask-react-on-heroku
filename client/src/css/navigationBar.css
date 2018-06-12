@@ -7,6 +7,6 @@
 
 }
 
-#navigation-bar li a:hover, #navigation-bar li a:visited  {
+#navigation-bar li a:hover, #navigation-bar li a:visited , #navigation-bar li a:focus {
     color:black;
 }

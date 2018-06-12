@@ -1,0 +1,64 @@
+div#greetings {
+  text-align: center;
+  background-image: url(../img/greetings.jpg);
+  height: 70vh;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  /* margin-bottom: 15px; */
+}
+
+.carousel {
+  height: 75%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+div#greetings h1 {
+  padding-bottom: 30px;
+  font-size: 85px;
+  line-height: 87px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 1px 0 rgba(0,0,0,0.2);
+  text-align: center;
+  font-family: 'Dancing Script',cursive;
+}
+
+.testimonial {
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 0 20px;    
+  }
+  
+  .testimonial-avatar {
+    /* width: 100px; */
+    border-radius: 50%;
+  }
+
+  .testimonial-quote {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 45px 0px 0px 0px;
+    position: relative;
+    left: 0;
+    right: 0;
+    color: #fff;
+  }
+
+  ol li {
+      background-color: black !important; 
+  }
+ ol.carousel-indicators {
+      bottom: 0px;
+      display: none;
+  }
+
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;   
+  }
+
+  p.message {
+    margin: 30px 0 0 0;
+    white-space: pre-line;
+  }

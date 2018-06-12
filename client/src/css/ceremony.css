@@ -96,12 +96,13 @@ section#ceremony h2 {
 
 section#ceremony h4 {
     font-family: 'EB Garamond',serif;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 24px;
     font-weight: 400;
-    color: #fff;
+    color: #9d9d9d;
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 8px;
-    text-shadow: 2px 1px 0 rgba(0,0,0,0.4);
+    margin-top: 70px;
+    /* text-shadow: 2px 1px 0 rgba(0,0,0,0.4); */
 }

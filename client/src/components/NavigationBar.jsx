@@ -25,13 +25,16 @@ export default (props) => {
             <NavItem eventKey={1} href="#home-scroll">
                 Home
       </NavItem>
-            <NavItem eventKey={2} href="#ceremony-scroll">
+        <NavItem eventKey={2} href="#ceremony-scroll">
                 About
       </NavItem>
-            <NavItem eventKey={3} href="#location">
+      <NavItem eventKey={3} href="#greetings-scroll">
+                Greetings
+      </NavItem>
+            <NavItem eventKey={4} href="#location">
                 Location
       </NavItem>
-      <NavItem eventKey={4} href="#rsvp-scroll">
+      <NavItem eventKey={5} href="#rsvp-scroll">
                 RSVP
       </NavItem>
         </Nav>

@@ -8,6 +8,11 @@ a onepage react app served by flask & sqlite/postgres db, deployed easily on her
 $ git clone...
 $ cd <>
 ```
+
+### DB
+```
+sudo -u postgres psql postgres
+```
 ### Server
 
 ```
@@ -66,3 +71,5 @@ $ heroku run python
 1. [Sahil Diwan - flask and postgres on heroku](http://blog.sahildiwan.com/posts/flask-and-postgresql-app-deployed-on-heroku/)
 
 1. [Setting up flask app in heroku with a database](https://gist.github.com/mayukh18/2223bc8fc152631205abd7cbf1efdd41/)
+
+1. [Testeimonials Carousel](https://codepen.io/jamy/pen/gbdWGJ)
